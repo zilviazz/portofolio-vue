@@ -1,6 +1,6 @@
 <template>
     <footer class="foot">
-        <p>@copyright zilviazz_ 2023</p>
+        <p>@copyright zilviazz_ 2024</p>
     </footer>
 </template>
 
