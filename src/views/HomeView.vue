@@ -14,8 +14,9 @@ export default {
           <h2>About</h2>
           <span class="hi"> Hello... </span>
           <p> My name is Zilvi, I am from Bojonegoro, Indonesia </p>
-          <p class="info"> Love in drawing and design grafis </p>
-          <p class="text"> Student at UPN "Veteran" Jawa Timur </p>
+          <p class="info"> I am a fresh graduate of the Information Systems UPN "Veteran" Jawa Timur</p>
+          <p>I have practical work experience in the field of website designer, as well as experience in studying data analytics and software engineering.</p>
+          <p class="text"> I have an interest in data analysis, have analytical thinking skills, and am able to work in a team </p>
           <br>
           <h2>Quotes</h2>
           <p class="quote">"We must believe that hard work can beat talent even though it takes a long time"</p>

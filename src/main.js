@@ -16,11 +16,13 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 /* add icons to the library */
 library.add(faInstagram)
 library.add(faGithub)
 library.add(faLinkedin)
+library.add(faEnvelope)
 
 const app = createApp(App)
 

@@ -1,11 +1,11 @@
 <script>
-import BaseInput from '@/components/BaseInput.vue';
+// import BaseInput from '@/components/BaseInput.vue';
 
 export default {
     name: 'ContactView',
-    components: {
-        BaseInput,
-    },
+    // components: {
+    //     BaseInput,
+    // },
     data: () => ({
         title: 'Contact',
         input: {
@@ -27,9 +27,9 @@ export default {
 <template> 
     <div class="contact">
         <h2>Contact me</h2>
-        <p>Send message via Contact Form below.</p>
-        <br>
-        <form @submit.prevent="submit">
+        <!-- <p>Send message via Contact Form below.</p>
+        <br> -->
+        <!-- <form @submit.prevent="submit">
         <BaseInput v-model="input.name" name="Name" label="Zilvi Azus Sriyanti" type="text"/>
         <BaseInput v-model="input.email" name="Email" label="zilviya@gmail.com" type="email" />
         <BaseInput v-model="input.telepon" name="Phone" label="08987654131" type="text" />
@@ -40,13 +40,14 @@ export default {
         </label>
         <br />
         <button type="submit" class="button">Send</button>
-        </form>
+        </form> -->
         <br>
-        <h2>Social Media</h2>
+        <!-- <h2>Social Media</h2> -->
         <div class="sosmed">
             <a href="https://www.instagram.com/zilviazz_/"><i><font-awesome-icon icon="fa-brands fa-instagram"></font-awesome-icon></i></a>
             <a href="https://github.com/zilviazz"><i><font-awesome-icon icon="fa-brands fa-github"></font-awesome-icon></i></a>
             <a href="https://www.linkedin.com/in/zilvi-azus-sriyanti-478312250/"><i ><font-awesome-icon icon="fa-brands fa-linkedin"></font-awesome-icon></i></a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=zilvia524@gmail.com&su=Subject%20Here&body=Body%20Here" target="_blank" rel="noopener noreferrer"><i><font-awesome-icon icon="fa-solid fa-envelope"></font-awesome-icon></i></a>
         </div>
     </div> 
 </template>
